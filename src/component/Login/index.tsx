@@ -6,7 +6,7 @@ type Props = {};
 
 function Login({ }: Props) {
   return (
-    <div className="relative flex flex-col items-center justify-center min-h-screen overflow-hidden">
+    <div className="flex flex-col items-center justify-center min-h-screen overflow-hidden">
       <div className="w-full px-4 lg:px-0 sm:max-w-xl">
         <div className="p-6 bg-white rounded-md border-2 shadow-md">
           <form className="">

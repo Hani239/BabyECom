@@ -36,10 +36,6 @@ const Categories = (props: Props) => {
         <Button text="Get Direction" className='py-2 m-2' />
       </div>
     </div>
-
-
-
-
   )
 }
 

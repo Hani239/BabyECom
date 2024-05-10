@@ -12,6 +12,8 @@ import Insta_Grid from '@/container/Insta_Grid'
 import Heading from '@/component/Heading'
 import New_Summer from '@/component/New_Summer'
 import Logic_Lords from '@/component/Logic_Lords'
+import Carousel from '@/component/Carousel'
+import RangeSlider from '@/component/Multi-Slider/App/Apps'
 
 export default function Home() {
   return (
@@ -31,14 +33,15 @@ export default function Home() {
         <New_Summer className='' />
       </div>
 
-        <div>
-          <Blog />
-        </div>
+      <div>
+        <Blog />
+      </div>
       <div className='bg-gradient-to-t from-white to-[#f7f7f7]'>
-        <div className=''>
+        {/* <div className=''>
           <Heading textHead={'TRENDY NOW'} textSubHead={'Shop our favorites'}></Heading>
-          <New_Summer className=''/>
-        </div>
+          <New_Summer className='' />
+        </div> */}
+        <Carousel/>
 
         <div className='mt-20 '>
           <Cards_R />

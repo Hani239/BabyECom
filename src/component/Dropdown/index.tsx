@@ -1,7 +1,13 @@
 import React from 'react';
 import Dropdown from '@/component/Dropdown/Item/index';
+import RangeSlider from '../Multi-Slider/App/Apps';
+interface Option {
+  label?: string;
+  component?: React.ReactNode;
+}
 
-const option1: string[] = [];
+// const option1: React.ReactNode[] = [<RangeSlider />];
+const option1: Option[] = [{ component: <RangeSlider /> }];
 const option2: string[] = ['Baby','Baby Boxes + Layettes','Hospital Cuddle Box™','The Modern Layette','Baby Clothing','Dresses','Jackets + Outerwear','One Pieces, Rompers + Bodysuits','Pajamas','Pants + Leggings','Shirts + Tops','Shorts','Sweaters + Sweatshirts','Swimsuits','Baby Collections','Better together','Cute & Comfy','Mix & Match Magic','Spring Bloom','Baby Gifts','Baby Shower Gifts','Hospital + Homecoming Gifts','Outfits + Bundles','Shop by Size','0–3M','12–18M','3–6M','6–9M','9–12M','Newborn','Baby Boy','Baby Girl','Boys','Boys Clothing','Coats and jackets','Jeans','Shirts','Shorts','Sweaters, jackets','Sweatshirts','T-shirts','Trousers','Boys Collections','Better together','Cute & Comfy','Mix & Match Magic','Spring Bloom','Shop by Size','2-8 Y','Clothing','All in ones','Baby Clothes','Baselayers','Bottoms','Clothing OUTLET','Clothing Sets','Coats & Jackets','Coveralls','Dresses','Find Your Inspiration','Fleece','New Arrivals - Children"s Clothes','Rainwear','Shellwear','Shorts','Ski Pants & Snow Bibs','Skirts','Sleepwear','Suits','Sweaters & Knitwear','Tops','Underwear','UV-Clothing & Swimwear','Gifts','Baby Bibs','Swaddles','Girls','Girls Clothing','Coats and jackets','Dresses, skirts','Sets','Sweatshirts, sweaters','T-shirts','Trousers, jeans, leggins','Underwear, body suits','Girls Collections','Better together','Cute & Comfy','Mix & Match Magic','Spring Bloom','Newborn (0m-3m)','Newborn Sets','Standard Shop','Boys','Girls','Uncategorized'];
 const option3: string[] = ['Better together','Cute & Comfy','Mix & Match Magic','Spring Bloom',];
 const option4: string[] = ['A Happy Brand', 'Babblarna', 'Calvin Klein', 'DKNY', 'Fabric Flavours','H&M','Marc Jacobs','Ralph Lauаren','Zara'];

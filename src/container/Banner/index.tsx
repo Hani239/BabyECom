@@ -35,17 +35,13 @@ const Banner = ({ className, children, ...props }: Props) => {
                 className="object-cover w-16 absolute top-40 left-10 -z-10"
             />
             <div className="md:flex-1 flex items-center justify-center">
-
                 <div className='ml-5 md:ml-20 mr-8'>
-                    
                         <Image
                             src={Heart}
                             alt="Heart"
                             className="object-cover "
                         />
                         <p className='text-2xl md:text-3xl lg:text-4xl xl:text-5xl font-bold font-playpen'>Loved by mums. Made for babies.</p>
-                    
-
                     <div className="mt-3 lg:mt-5">
                     <Link href="/List"> <Button text={'Explore our products'} /></Link>
                     </div>
