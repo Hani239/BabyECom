@@ -127,6 +127,7 @@ const New_Summer = ({ className, children, ...props }: Props) => {
         <div className={`snap-mandatory snap-x wrapper flex  overflow-x-auto scrollbar-thin scrollbar-thumb-[#E8EEEF] ${className}`}>
         {products.map((product) => (
             <Product
+              key={product.id}
               src={product.src}
               alt={product.alt}
               name={product.name}

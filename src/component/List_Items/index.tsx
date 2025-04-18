@@ -125,6 +125,7 @@ const List_Items = ({ className, children, ...props }: Props) => {
         <div className={` flex flex-wrap justify-center ${className}`}>
           {products.map((product) => (
             <Product
+            key={product.id}
               src={product.src}
               alt={product.alt}
               name={product.name}

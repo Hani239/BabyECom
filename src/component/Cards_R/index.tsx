@@ -28,7 +28,7 @@ const Cards_R = (props: Props) => {
                     </div>
                   
                     <h2 className='font-extrabold mt-28'>Premium Quality</h2>
-                    <p className='z-1'>We offer the best quality materials and textiles; attention to detail and baby's comfort always come first. We ensure every item meets premium standards.</p>
+                    <p className='z-1'>We offer the best quality materials and textiles; attention to detail and baby&apos;s comfort always come first. We ensure every item meets premium standards.</p>
 
 
                 </div>
