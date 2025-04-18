@@ -1,7 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
-// import MainI from '../../Img/Img_View/MFTshirt.jpg'
-// import MainI from '../../Img/Img_View/MFTshirt.jpg'
+import MainI from '@/Img/Img_View/MFTshirt.jpg'
 import Side1 from '@/Img/Img_View/FTShirt.jpg'
 import Side2 from '@/Img/Img_View/BTshirt.jpg'
 import Side3 from '@/Img/Img_View/CTshirt.jpg'
@@ -21,7 +20,7 @@ const View = ({ className, children, ...props }: Props) => {
             <div className='flex flex-wrap mt-48 mx-12 ml-6 mr-6 md:ml-20 md:mr-20 '>
                 <div className='flex flex-wrap md:flex-1 h-full  object-contain sticky'>
                     <div className='flex  w-full sm:w-full md:w-full lg:w-full aspect-auto  xl:w-5/6  justify-center  object-cover'>
-                        {/* <Image src={MainI} alt="Product Image" className='w-full ' /> */}
+                        <Image src={MainI} alt="Product Image" className='w-full ' />
                     </div>
                     <div className='flex flex-wrap w-full md:w-full lg:w-full xl:w-1/6 align-top  lg:h-72'>
                         <Image src={Side1} alt="Product Image " className='aspect-square shrink-0 w-1/3 md:w-1/3 lg:w-1/3  p-1 xl:w-full lg:aspect-square lg:h-40 xl:h-auto opacity-80 hover:opacity-100' />
