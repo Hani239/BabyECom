@@ -1,6 +1,7 @@
 import React from 'react'
 import Image from 'next/image';
-import MainI from '@/Img/Img_View/MFTshirt.jpg'
+// import MainI from '../../Img/Img_View/MFTshirt.jpg'
+import MainI from '../../Img/Img_View/MFTshirt.jpg'
 import Side1 from '@/Img/Img_View/FTShirt.jpg'
 import Side2 from '@/Img/Img_View/BTshirt.jpg'
 import Side3 from '@/Img/Img_View/CTshirt.jpg'
