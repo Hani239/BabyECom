@@ -1,7 +1,7 @@
 import React from 'react';
 import Dropdown from '@/component/Dropdown/Item/index';
 
-const option1: string[] = ['Default sorting','Sort by popularity','Sort by average rating','Sort by latest','Sort by price: low to high','Sort by price: high to low'];
+const option1: Option[] = ['Default sorting','Sort by popularity','Sort by average rating','Sort by latest','Sort by price: low to high','Sort by price: high to low'].map(label => ({ label }));
 
 const Sorting: React.FC = () => {
   return (
