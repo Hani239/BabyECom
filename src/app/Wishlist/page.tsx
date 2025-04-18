@@ -12,23 +12,17 @@ export default function Home() {
       <div className="relative flex z-20">
         <Nav></Nav>
       </div>
-     
-        <center>
-          <div className="w-full md:w-3/4 lg:w-3/4 self-center justify-center h-auto  lg:mt-40">
-               <h1 className='text-6xl font-playpen' >Wishlist</h1>
-               
-                  <Empty />               
-               <div className=' w-full'>
-                      <Wish_item text='10-pack Hair Elastics' src={Img} pricex={200} alt={''} bg={''} />
-                      <Wish_item text='10-pack Hair Elastics' src={Img} pricex={200} alt={''} bg={''} />
-                       
-             </div>
-        </div></center>
-      
-       <div>
+
+      <center>
+        <div className="w-full md:w-3/4 lg:w-3/4 self-center justify-center h-auto  lg:mt-40">
+          <h1 className='text-6xl font-playpen' >Wishlist</h1>
+          <Empty />
+        </div>
+      </center>
+      <div>
         <Footer />
-       </div>
-       
+      </div>
+
     </main>
   )
 }
