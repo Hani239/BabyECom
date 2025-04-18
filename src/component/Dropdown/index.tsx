@@ -2,10 +2,7 @@ import React from 'react';
 import Dropdown from '@/component/Dropdown/Item/index';
 import RangeSlider from '../Multi-Slider/App/Apps';
 
-interface Option {
-  label?: string;
-  component?: React.ReactNode;
-}
+import { Option } from '@/types';
 
 // const option1: React.ReactNode[] = [<RangeSlider />];
 const option1: Option[] = [{label: 'Select Price Range', component: <RangeSlider /> }];

@@ -2,10 +2,7 @@
 
 import React, { Fragment, useState } from 'react';
 
-interface Option {
-  label: string;
-  component?: React.ReactNode;
-}
+import { Option } from '@/types';
 
 const Dropdown: React.FC<{ options: Option[], text: string[] }> = ({ options, text }) => {
   const [isOpen, setIsOpen] = useState(false);
