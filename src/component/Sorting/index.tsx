@@ -1,5 +1,6 @@
 import React from 'react';
 import Dropdown from '@/component/Dropdown/Item/index';
+import { Option } from '@/types';
 
 const option1: Option[] = ['Default sorting','Sort by popularity','Sort by average rating','Sort by latest','Sort by price: low to high','Sort by price: high to low'].map(label => ({ label }));
 
